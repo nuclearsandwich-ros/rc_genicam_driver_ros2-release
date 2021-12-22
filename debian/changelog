@@ -1,0 +1,48 @@
+ros-rolling-rc-genicam-driver (0.2.1-2bullseye) bullseye; urgency=high
+
+  * Add exposure_adapt_timeout parameter
+  * warn instead of info if parameter can't be set
+  * fix line_source and add more extra_data to CameraParam
+
+ -- Felix Ruess <felix.ruess@roboception.de>  Mon, 15 Nov 2021 08:00:00 -0000
+
+ros-rolling-rc-genicam-driver (0.2.0-2bullseye) bullseye; urgency=high
+
+  For supporting rc_sgm_producer:
+  * Extend color format to RGB8 for ros foxy
+  * Using parameter PtpEnable instead of deprecated parameter GevIEEE1588
+
+ -- Felix Ruess <felix.ruess@roboception.de>  Mon, 02 Aug 2021 07:00:00 -0000
+
+ros-rolling-rc-genicam-driver (0.1.4-2bullseye) bullseye; urgency=high
+
+  * Accept devices from vendor Roboception or if model is rc_visard or rc_cube
+
+ -- Felix Ruess <felix.ruess@roboception.de>  Thu, 11 Feb 2021 08:00:00 -0000
+
+ros-rolling-rc-genicam-driver (0.1.3-2bullseye) bullseye; urgency=high
+
+  * Use image_transport.hpp to get rid of a warning and hence drop eloquent support
+  * Use C-strings for RCLCPP macros to support rolling
+
+ -- Felix Ruess <felix.ruess@roboception.de>  Tue, 02 Feb 2021 08:00:00 -0000
+
+ros-rolling-rc-genicam-driver (0.1.2-2bullseye) bullseye; urgency=high
+
+  * fix linking problems
+
+ -- Felix Ruess <felix.ruess@roboception.de>  Fri, 29 Jan 2021 08:00:00 -0000
+
+ros-rolling-rc-genicam-driver (0.1.1-2bullseye) bullseye; urgency=high
+
+  * fix typo in package xml
+
+ -- Felix Ruess <felix.ruess@roboception.de>  Mon, 18 Jan 2021 08:00:00 -0000
+
+ros-rolling-rc-genicam-driver (0.1.0-2bullseye) bullseye; urgency=high
+
+  * initial release
+
+ -- Felix Ruess <felix.ruess@roboception.de>  Mon, 18 Jan 2021 08:00:00 -0000
+
+
