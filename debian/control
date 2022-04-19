@@ -1,0 +1,12 @@
+Source: ros-humble-rc-genicam-driver
+Section: misc
+Priority: optional
+Maintainer: Felix Ruess <felix.ruess@roboception.de>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-cppcheck <!nocheck>, ros-humble-ament-cmake-xmllint <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-diagnostic-updater, ros-humble-image-transport, ros-humble-rc-common-msgs, ros-humble-rc-genicam-api, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-stereo-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rc-genicam-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-diagnostic-updater, ros-humble-image-transport, ros-humble-rc-common-msgs, ros-humble-rc-genicam-api, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-stereo-msgs, ros-humble-ros-workspace
+Description: Driver for rc_visard and rc_cube from Roboception GmbH
